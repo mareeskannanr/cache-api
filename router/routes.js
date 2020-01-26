@@ -11,6 +11,7 @@ const routes = router().get("/", (req, res) => {
 const CACHE_API = '/api/caches';
 routes.route(CACHE_API)
         .post(controller.saveInfo)
+        .put(controller.saveInfo)
         .get(controller.retriveAllKeys)
         .delete(controller.removeAllKeys);
 
