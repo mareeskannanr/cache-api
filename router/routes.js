@@ -1,6 +1,7 @@
 const router = require('express').Router;
 const controller = require('../controllers/CacheController');
 
+//health check
 const routes = router().get("/", (req, res) => {
     res.json({
         message: "Application is UP!"
