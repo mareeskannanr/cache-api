@@ -2,7 +2,7 @@ const Cache = require('../models/Cache');
 const logger = require('winston');
 
 //default ttl value 10 minutes
-const TTL_VALUE = process.env.TTL || 1 * 60 * 1000;
+const TTL_VALUE = (process.env.TTL || 10) * 60 * 1000;
 const MAX_ITEM_VALUE = process.env.MAX_ITEM_VALUE || 10;
 const SUCCESS = "success";
 const FAILURE = "failure";
