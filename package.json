@@ -1,0 +1,28 @@
+{
+  "name": "cache-api",
+  "version": "1.0.0",
+  "description": "Cache API using Node.js, Express.js, MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mareeskannanr/cache-api.git"
+  },
+  "keywords": [
+    "Cache Management", "Cache API"
+  ],
+  "author": "mareeskannan1990@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mareeskannanr/cache-api.git/issues"
+  },
+  "homepage": "https://github.com/mareeskannanr/cache-api.git#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.9",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {}
+}
